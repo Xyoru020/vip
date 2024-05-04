@@ -7,7 +7,7 @@
  wget https://raw.githubusercontent.com/nixyproject-cfd/vip/main/Xyoru.sh && chmod +x Xyoru.sh && ./Xyoru.sh
  ```
 ##
- <img src="https://img.shields.io/badge/CONTACT-NIXY-blue"></img><br>
+ <img src="https://img.shields.io/badge/CONTACT-XYR020-blue"></img><br>
  <a href="https://t.me/XYR020"><img width="50" height="50" src="https://static.vecteezy.com/system/resources/previews/026/127/328/non_2x/telegram-logo-telegram-icon-transparent-telegram-icon-rounded-free-png.png"></a>
 </p>
 

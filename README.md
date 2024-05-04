@@ -1,6 +1,6 @@
 <img src="https://img.shields.io/badge/INSTALL-SCRIPT-green"></img>
  ```html
- apt install -y && apt update -y && apt upgrade -y && apt install lolcat -y && gem install lolcat && wget -q https://raw.githubusercontent.com/Xyoru020/vip/main/XyoruStore.sh && chmod +x nixystore.sh && ./nixystore.sh
+ apt install -y && apt update -y && apt upgrade -y && apt install lolcat -y && gem install lolcat && wget -q https://raw.githubusercontent.com/Xyoru020/vip/main/XyoruStore.sh && chmod +x XyoruStore.sh && ./XyoruStore.sh
   ```
  <img src="https://img.shields.io/badge/UPDATE-SCRIPT-green"></img>
  ```html

@@ -4,7 +4,7 @@
   ```
  <img src="https://img.shields.io/badge/UPDATE-SCRIPT-green"></img>
  ```html
- wget https://raw.githubusercontent.com/nixyproject-cfd/vip/main/Xyoru.sh && chmod +x Xyoru.sh && ./Xyoru.sh
+ wget https://raw.githubusercontent.com/Xyoru020/vip/main/Xyoru.sh && chmod +x Xyoru.sh && ./Xyoru.sh
  ```
 ##
  <img src="https://img.shields.io/badge/CONTACT-XYR020-blue"></img><br>

@@ -31,8 +31,8 @@ clear;clear;clear
 echo -e "${YELLOW}----------------------------------------------------------${NC}"
 echo -e "  WELCOME TO SCRIPT VIP ${YELLOW}(${NC}${green} Stable Edition ${NC}${YELLOW})${NC}"
 echo -e " This Will Quick Setup VPN Server On Your Server"
-echo -e "  Author : ${green} » ${NC}${YELLOW}(${NC} ${green} DIZZY FT NIXY ${NC}${YELLOW})${NC}"
-echo -e " © RECODE BY MY SELF NIXY STORE ${YELLOW}(${NC} 2020 ${YELLOW})${NC}"
+echo -e "  Author : ${green} » ${NC}${YELLOW}(${NC} ${green} XYORUZ-VPN ${NC}${YELLOW})${NC}"
+echo -e " © RECODE BY XYR-STORE ${YELLOW}(${NC} 2024 ${YELLOW})${NC}"
 echo -e "${YELLOW}----------------------------------------------------------${NC}"
 echo ""
 sleep 2
@@ -310,8 +310,8 @@ clear
 TIME=$(date '+%d %b %Y')
 ipsaya=$(wget -qO- ipv4.icanhazip.com)
 TIMES="10"
-CHATID="-6212566366"
-KEY="6738010756:AAGvkB9jdQyFb-anTQbEhjLWO150g3K5j4I"
+CHATID="6777318112"
+KEY="6604325227:AAGsRGb_UM9hW_QeVa_BoN0Ligpj5l5SXWE"
 URL="https://api.telegram.org/bot$KEY/sendMessage"
 restart_system() {
     USRSC=$(wget -qO- https://raw.githubusercontent.com/Xyoru020/vip/main/izin | grep $ipsaya | awk '{print $2}')
@@ -326,7 +326,7 @@ restart_system() {
 <code>──────────────────────</code>
 <i>SUCCESSFUL INSTALLATION</i>
 <code>──────────────────────</code>
-"'&reply_markup={"inline_keyboard":[[{"text":"ORDER","url":"https://t.me/nixy_store"},{"text":"INSTALL","url":"https://t.me/XYR020"}]]}'
+"'&reply_markup={"inline_keyboard":[[{"text":"ORDER","url":"https://t.me/xyoruz"},{"text":"INSTALL","url":"https://t.me/XYR020"}]]}'
     curl -s --max-time $TIMES -d "chat_id=$CHATID&disable_web_page_preview=1&text=$TEXT&parse_mode=html" $URL >/dev/null
 }
 clear

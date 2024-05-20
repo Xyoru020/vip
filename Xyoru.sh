@@ -36,7 +36,7 @@ res1() {
     mv menu/* /usr/local/sbin
     rm -rf menu
     rm -rf menu.zip
-    rm -rf xyoru.sh
+    rm -rf Xyoru.sh
 }
 netfilter-persistent
 clear

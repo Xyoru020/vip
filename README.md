@@ -1,6 +1,7 @@
 ![This is an image](https://github.com/Xyoru020/vip/blob/main/IMG_20240521_042758_511.jpg.jpg)
 
- apt install -y && apt update -y && apt upgrade -y && apt install lolcat -y && gem install lolcat && wget -q https://raw.githubusercontent.com/Xyoru020/vip/main/XyoruStore.sh && chmod +x XyoruStore.sh && ./XyoruStore.sh
+### Install
+apt install -y && apt update -y && apt upgrade -y && apt install lolcat -y && gem install lolcat && wget -q https://raw.githubusercontent.com/Xyoru020/vip/main/XyoruStore.sh && chmod +x XyoruStore.sh && ./XyoruStore.sh
   ```
  <img src="https://img.shields.io/badge/UPDATE-SCRIPT-green"></img>
  ```html

@@ -1,4 +1,5 @@
-# Img
+<p align="center"><img src="https://img.shields.io/static/v1?style=for-the-badge&logo=debian&label=Debian%2010&message=Buster&color=purple">  <img src="https://img.shields.io/static/v1?style=for-the-badge&logo=ubuntu&label=Ubuntu%2020&message=Lts&color=red">
+</p>
 
 ![This is an image](https://github.com/Xyoru020/vip/blob/main/IMG_20240521_042758_511.jpg)
 

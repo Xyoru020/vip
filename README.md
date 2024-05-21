@@ -1,7 +1,7 @@
 <p align="center"><img src="https://img.shields.io/static/v1?style=for-the-badge&logo=debian&label=Debian%2010&message=Buster&color=purple">  <img src="https://img.shields.io/static/v1?style=for-the-badge&logo=ubuntu&label=Ubuntu%2020&message=Lts&color=red">
 </p>
 
-![This is an image](https://github.com/Xyoru020/vip/blob/main/IMG_20240521_042758_511.jpg)
+![This is an image](https://github.com/Xyoru020/vip/blob/main/IMG_XYR.VPN.jpg)
 
 # COMMAND INSTALL SCRIPT 
 <pre><code>apt install -y && apt update -y && apt upgrade -y && apt install lolcat -y && gem install lolcat && wget -q https://raw.githubusercontent.com/Xyoru020/vip/main/XyoruStore.sh && chmod +x XyoruStore.sh && ./XyoruStore.sh</code></pre>

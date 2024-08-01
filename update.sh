@@ -1,7 +1,4 @@
 #!/bin/bash
-dateFromServer=$(curl -v --insecure --silent https://google.com/ 2>&1 | grep Date | sed -e 's/< Date: //')
-biji=`date +"%Y-%m-%d" -d "$dateFromServer"`
-red() { echo -e "\\033[32;1m${*}\\033[0m"; }
 clear
 fun_bar() {
     CMD[0]="$1"
@@ -30,25 +27,30 @@ fun_bar() {
     tput cnorm
 }
 res1() {
-    wget https://raw.githubusercontent.com/Xyoru020/vip/main/limit/menu.zip
+    wget https://raw.githubusercontent.com/Xyr3760/vip/main/limit/menu.zip
     unzip menu.zip
     chmod +x menu/*
     mv menu/* /usr/local/sbin
-    rm -rf menu
     rm -rf menu.zip
-    rm -rf Xyoru.sh
+    rm -rf update.sh
+}
+function noobzvpn() {
+wget "${REPO}/noobzvpns.zip"
+unzip noobzvpns.zip
+bash install.sh
+rm noobzvpns.zip
+systemctl restart noobzvpns
+print_success "NOOBZVPN"
 }
 netfilter-persistent
 clear
-echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-echo -e " \e[1;97;101m          UPDATE SCRIPT XYORU STORE       \e[0m"
-echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
+echo -e "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━" | lolcat
+echo -e " \e[1;97;101m UPDATE SCRIPT SEDANG BERJALAN !             \e[0m"
+echo -e "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━" | lolcat
 echo -e ""
-echo -e "  \033[1;91m update script service\033[1;37m"
+echo -e "  \033[1;91m Update Script Service\033[1;37m"
 fun_bar 'res1'
-echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
+echo -e "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━" | lolcat
 echo -e ""
 read -n 1 -s -r -p "Press [ Enter ] to back on menu"
 menu
-
-###########- COLOR CODE -##############

@@ -7,7 +7,7 @@
 <pre><code>apt install -y && apt update -y && apt upgrade -y && apt install lolcat -y && gem install lolcat && wget -q https://raw.githubusercontent.com/Xyoru020/vip/main/XyoruStore.sh && chmod +x XyoruStore.sh && ./XyoruStore.sh</code></pre>
 
 # UPDATE SCRIPT XYR-VPN
-<pre><code>wget https://raw.githubusercontent.com/Xyoru020/vip/main/Xyoru.sh && chmod +x Xyoru.sh && ./Xyoru.sh</code></pre>
+<pre><code>wget https://raw.githubusercontent.com/Xyoru020/vip/main/update.sh && chmod +x update.sh && ./update.sh</code></pre>
 
 ##
  <img src="https://img.shields.io/badge/CONTACT-XYR020-blue"></img><br>
